@@ -9,7 +9,7 @@ using namespace std;
 int r = 0;
 int c = 0;
 int t;
-vector<int> room[50];    // MAX_C로 하면 안되나
+vector<int> room[MAX_C];    // MAX_C로 하면 안되나
 int curr_time = 0;
 int purifiers[2];
 
